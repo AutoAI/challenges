@@ -1,5 +1,5 @@
 site_name: DriveAI Challenges
 pages:
  - Home: index.md
- - WaldoChallenge: waldo.md
+ - Challenge 1: waldo.md
 theme: slate
