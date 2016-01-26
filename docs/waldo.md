@@ -1,19 +1,26 @@
-#Welcome to Drive AI
+#The Waldo Challenge
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-## Commands
+## Motivation
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Any effective self driving system is going to need to be able to rapidly respond to its environment. Often, the only cues it will get for its response is the visual around it (if a car swerves in front of you, or a pedestrian runs out, its unacceptable to wait until physical contact before hitting the breaks). Naturally then, its clear that Computer Vision is going to be a fundamental aspect of any self driving car. To kick off the first of our Challenges we shall present a problem in computer Vision. 
+## Challenge Description
 
-## Project layout
+Given a collection of images, some containing a stop sign, and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Format
 
-i
+The Programs will be submitted as a single file that accepts a single command line string, the path to a directory containing the  images. The program must print to console a JSON Array that pairs the filenames in the image with a "yes"/"no" for whether a stop-sign is present or not present in the image respectively. A sample submission is shown below
+'''
+[
+     
+    {	
+	"filename": "sid.png",
+        "stop_sign": "yes"
+    }, 
+    {
+	"filename": "anotherfile.png",
+	"stop_sign": "no"
+    }
+]
+ '''
