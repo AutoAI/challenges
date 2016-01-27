@@ -2,23 +2,63 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to DriveAI\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Welcome to DriveAI Challenges\n\n\nWho are we?\n\n\nWe're \nDriveAI!\n. We develop open source software for autonomous vehicles so anyone can build one. The sum of all our knowledge is located at our \ndocsite\n. We're an open source project. So feel free to contribute to \nanything!\n\n\nWhat are the challenges?\n\n\nThe \nDriveAI Challenges\n are a way for anyone to learn more about algorithms and challenges that are at the forefront of the Autonomous Vehicle industry. Every month we'll post challenges that will involve solving a problem, and we'll award prizes to whoever solves them the most effectively given a criteria.\n\n\nWho can participate?\n\n\nAnyone\n. No seriously. \nAnyone\n. We'll provide guides and learning material for anyone to solve the challenge. Wether you're just getting started programming, or pursuing a PHD, this will be a fun way to challenge yourself, and help the self driving community. Your submissions may play an integral role in the creation of our vehicles. Get started with \nwaldo challenge\n.", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-driveai", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to DriveAI"
+            "location": "/#welcome-to-driveai-challenges", 
+            "text": "", 
+            "title": "Welcome to DriveAI Challenges"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#who-are-we", 
+            "text": "We're  DriveAI! . We develop open source software for autonomous vehicles so anyone can build one. The sum of all our knowledge is located at our  docsite . We're an open source project. So feel free to contribute to  anything!", 
+            "title": "Who are we?"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#what-are-the-challenges", 
+            "text": "The  DriveAI Challenges  are a way for anyone to learn more about algorithms and challenges that are at the forefront of the Autonomous Vehicle industry. Every month we'll post challenges that will involve solving a problem, and we'll award prizes to whoever solves them the most effectively given a criteria.", 
+            "title": "What are the challenges?"
+        }, 
+        {
+            "location": "/#who-can-participate", 
+            "text": "Anyone . No seriously.  Anyone . We'll provide guides and learning material for anyone to solve the challenge. Wether you're just getting started programming, or pursuing a PHD, this will be a fun way to challenge yourself, and help the self driving community. Your submissions may play an integral role in the creation of our vehicles. Get started with  waldo challenge .", 
+            "title": "Who can participate?"
+        }, 
+        {
+            "location": "/waldo/", 
+            "text": "The Waldo Challenge\n\n\n\n\nMotivation\n\n\nAny effective self driving system is going to need to be able to rapidly respond to it's environment. Often, the only cues it will get for its response is the visual around it (if a car swerves in front of you, or a pedestrian runs out, its unacceptable to wait until physical contact before hitting the breaks). Naturally then, its clear that computer vision is going to be a fundamental aspect of any self driving car. To kick off the first of our Challenges we shall present a problem in computer vision. \n\n\nChallenge Description\n\n\nGiven a collection of images, some containing a stop sign, and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. Your submission will be compared to other sibmissions based on accuracy and speed of execution.\n\n\nFormat\n\n\nThe Programs will be submitted as a single directory containing \n\n\ninstall_dependencies.sh\ncompile.sh\nrun.sh\n...\n\n\n\n\nYour program needs to set itself up on a fresh install of Ubuntu 14.04. \ninstall_dependencies.sh\n should downloadany libraries and supporting files your program needs, and \ncompile.sh\n will compile your program, if that's necessary. These will not be timed. The third must be set up so that it accepts a directory of png images.\n\n\nrun.sh path/to/directory/containing/images\n\n\n\n\nThis is the portion of your project that will be timed.\n\n\nThe program must output JSON Array that pairs the filenames in the directory with a \"1\" (yes) /\"0\" (no) for whether a stop-sign is present or not present in the image respectively. A sample output  is shown below:\n\n\nrun.sh path/to/directory/containing/images \n[\n    {   \n    \nfilename\n: \ncollege_ave_stopsighn.png\n,\n        \nstop_sign\n: \n1\n\n    }, \n    {\n    \nfilename\n: \nhippopotamus.png\n,\n    \nstop_sign\n: \nno\n\n    }\n]\n\n\n\n\nSubmission Instructions\n\n\nSubmissions will be accepted \nhere\n as a pull request. To submit, we recommend that you fork the challenges repository. Add your project folder to the \nsubmissions/waldo\n folder. We'd also like you to contribute your test-dataset to our dataset to run against everyone in the competition. Drop all the images that you used into the \ndataset/\n folder. Over the course of the project these will quickly grow into a fairly large data set for high quality testing. Monitor your pull request, in case we have any trouble with your submission, this is how we'll contact you.\n\n\nJudging/Grading\n\n\nYour submissions will be graded based on accuracy and speed, with a much higher weight on accuracy. We look forward to seeing everyone's submissions!", 
+            "title": "Challenge 1"
+        }, 
+        {
+            "location": "/waldo/#the-waldo-challenge", 
+            "text": "", 
+            "title": "The Waldo Challenge"
+        }, 
+        {
+            "location": "/waldo/#motivation", 
+            "text": "Any effective self driving system is going to need to be able to rapidly respond to it's environment. Often, the only cues it will get for its response is the visual around it (if a car swerves in front of you, or a pedestrian runs out, its unacceptable to wait until physical contact before hitting the breaks). Naturally then, its clear that computer vision is going to be a fundamental aspect of any self driving car. To kick off the first of our Challenges we shall present a problem in computer vision.", 
+            "title": "Motivation"
+        }, 
+        {
+            "location": "/waldo/#challenge-description", 
+            "text": "Given a collection of images, some containing a stop sign, and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. Your submission will be compared to other sibmissions based on accuracy and speed of execution.", 
+            "title": "Challenge Description"
+        }, 
+        {
+            "location": "/waldo/#format", 
+            "text": "The Programs will be submitted as a single directory containing   install_dependencies.sh\ncompile.sh\nrun.sh\n...  Your program needs to set itself up on a fresh install of Ubuntu 14.04.  install_dependencies.sh  should downloadany libraries and supporting files your program needs, and  compile.sh  will compile your program, if that's necessary. These will not be timed. The third must be set up so that it accepts a directory of png images.  run.sh path/to/directory/containing/images  This is the portion of your project that will be timed.  The program must output JSON Array that pairs the filenames in the directory with a \"1\" (yes) /\"0\" (no) for whether a stop-sign is present or not present in the image respectively. A sample output  is shown below:  run.sh path/to/directory/containing/images \n[\n    {   \n     filename :  college_ave_stopsighn.png ,\n         stop_sign :  1 \n    }, \n    {\n     filename :  hippopotamus.png ,\n     stop_sign :  no \n    }\n]", 
+            "title": "Format"
+        }, 
+        {
+            "location": "/waldo/#submission-instructions", 
+            "text": "Submissions will be accepted  here  as a pull request. To submit, we recommend that you fork the challenges repository. Add your project folder to the  submissions/waldo  folder. We'd also like you to contribute your test-dataset to our dataset to run against everyone in the competition. Drop all the images that you used into the  dataset/  folder. Over the course of the project these will quickly grow into a fairly large data set for high quality testing. Monitor your pull request, in case we have any trouble with your submission, this is how we'll contact you.", 
+            "title": "Submission Instructions"
+        }, 
+        {
+            "location": "/waldo/#judginggrading", 
+            "text": "Your submissions will be graded based on accuracy and speed, with a much higher weight on accuracy. We look forward to seeing everyone's submissions!", 
+            "title": "Judging/Grading"
         }
     ]
 }
