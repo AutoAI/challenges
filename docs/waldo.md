@@ -8,7 +8,7 @@ Any effective self driving system is going to need to be able to rapidly respond
 
 ## Challenge Description
 
-Given a collection of images, some containing a stop sign, and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. Your submission will be compared to other sibmissions based on accuracy and speed of execution.
+Given a collection of images, some containing a stop sign, and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. Your submission will be compared to other submissions based on accuracy and speed of execution.
 
 ## Format
 
@@ -21,7 +21,7 @@ run.sh
 ...
 ```
 
-Your program needs to set itself up on a fresh install of Ubuntu 14.04. `install_dependencies.sh` should downloadany libraries and supporting files your program needs, and `compile.sh` will compile your program, if that's necessary. These will not be timed. The third must be set up so that it accepts a directory of png images.
+Your program needs to set itself up on a fresh install of Ubuntu 14.04. `install_dependencies.sh` should download any libraries and supporting files your program needs, and `compile.sh` will compile your program, if that's necessary. These will not be timed. The third must be set up so that it accepts a directory of png images.
 
 ```sh
 run.sh path/to/directory/containing/images

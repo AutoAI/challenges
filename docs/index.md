@@ -6,7 +6,7 @@ We're [DriveAI!](driveai.org). We develop open source software for autonomous ve
 
 ## What are the challenges?
 
-The *DriveAI Challenges* are a way for anyone to learn more about algorithms and challenges that are at the forefront of the Autonomous Vehicle industry. Every month we'll post challenges that will involve solving a problem, and we'll award prizes to whoever solves them the most effectively given a criteria.
+The *DriveAI Challenges* are a way for anyone to learn more about algorithms and challenges that are at the forefront of the Autonomous Vehicle industry. Every month we'll post challenges that will involve solving a problem, and we'll award prizes to whoever solves them  most effectively given a criteria.
 
 ## Who can participate?
 
