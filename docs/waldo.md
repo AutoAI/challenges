@@ -10,17 +10,23 @@ Given a collection of images, some containing a stop sign, and others not, desig
 
 ## Format
 
-The Programs will be submitted as a single file that accepts a single command line string, the path to a directory containing the  images. The program must print to console a JSON Array that pairs the filenames in the image with a "yes"/"no" for whether a stop-sign is present or not present in the image respectively. A sample submission is shown below
-'''
-[
-     
-    {	
-	"filename": "sid.png",
-        "stop_sign": "yes"
-    }, 
-    {
-	"filename": "anotherfile.png",
-	"stop_sign": "no"
-    }
-]
- '''
+The Programs will be submitted as a single file that accepts a single command line string, the path to a directory containing the  images. The program must print to console a JSON Array that pairs the filenames in the image with a "yes"/"no" for whether a stop-sign is present or not present in the image respectively. A sample submission is shown below:
+
+    [
+        {	
+  	    "filename": "sid.png",
+            "stop_sign": "yes"
+        }, 
+        {
+	    "filename": "anotherfile.png",
+	    "stop_sign": "no"
+        }
+    ]
+
+## Submission Instructions
+
+TBD, any submission must be paired with at least 15 images that do contain a stop-sign and 15 that do not into their respective folders. 
+
+## Judging/Grading
+
+Programs will be scored with the following metric \(  a^2 \) 
