@@ -51,4 +51,4 @@ Submissions will be accepted [here](https://github.com/DriveAI/challenges) as a 
 
 ## Judging/Grading
 
-Programs will be scored with the following metric TBD
+Your submissions will be graded based on accuracy and speed, with a much higher weight on accuracy. We look forward to seeing everyone's submissions!
