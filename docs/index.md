@@ -2,7 +2,7 @@
 
 ## Who are we?
 
-We're [DriveAI!](driveai.org). We develop open source software for autonomous vehicles so anyone can build one. The sum of all our knowledge is located at our [docsite](docs.driveai.org). We're an open source project. So feel free to contribute to *anything!*
+We're [DriveAI!](https://driveai.org). We develop open source software for autonomous vehicles so anyone can build one. The sum of all our knowledge is located at our [docsite](https://docs.driveai.org). We're an open source project. So feel free to contribute to *anything!*
 
 ## What are the challenges?
 
