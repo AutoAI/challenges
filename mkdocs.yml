@@ -2,4 +2,4 @@ site_name: DriveAI Challenges
 pages:
  - Home: index.md
  - Challenge 1: waldo.md
-theme: slate
+theme: cyborg
