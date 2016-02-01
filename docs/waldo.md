@@ -12,7 +12,7 @@ Given a collection of images, some containing a stop sign, and others not, desig
 
 ## Format
 
-The Programs will be submitted as a single directory containing 
+The programs will be submitted as a single directory containing 
 
 ```
 install_dependencies.sh
@@ -34,14 +34,14 @@ This is the portion of your project that will be timed.
 ```sh
 run.sh path/to/directory/containing/images 
 [
-    {	
-    "filename": "college_ave_stopsighn.png",
-        "stop_sign": "1"
-    }, 
-    {
-    "filename": "hippopotamus.png",
-    "stop_sign": "no"
-    }
+	{	
+		"filename": "college_ave_stopsighn.png",
+		"stop_sign": "1"
+	}, 
+	{
+		"filename": "hippopotamus.png",
+		"stop_sign": "no"
+	}
 ]
 ```
 
