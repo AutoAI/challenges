@@ -10,4 +10,4 @@ The *DriveAI Challenges* are a way for anyone to learn more about algorithms and
 
 ## Who can participate?
 
-*Anyone*. We'll provide guides and learning material for anyone to solve the challenge. Whether you're just a beginner or pursuing a PHD, this will be a fun way to challenge yourself, and help the autonomous vehicle community. Your submissions will play an integral role in the creation of our vehicles. Get started with [Waldo Challenge](/waldo).
+*Anyone*. We'll provide guides and learning material for anyone to solve the challenge. Whether you're just a beginner or pursuing a PHD, this will be a fun way to challenge yourself, and help the autonomous vehicle community. Your submissions will play an integral role in the creation of our vehicles. Get started with [Waldo Challenge](http://challenges.driveai.org/waldo/).
