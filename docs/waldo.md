@@ -47,7 +47,7 @@ run.sh path/to/directory/containing/images
 
 ## Submission Instructions
 
-Submissions will be accepted [*here*](https://github.com/DriveAI/challenges) as a pull request. To submit, we recommend that you fork the challenges repository. Add your project folder to the `submissions/waldo` folder. You must contribute your test-dataset to our dataset to run against everyone in the competition. Drop all the images that you used into the `dataset/` folder. Over the course of the project these will quickly grow into a fairly large data set for high quality testing. Monitor your pull request, in case we have any trouble with your submission, this is how we'll contact you.
+Submissions will be accepted [**here**](https://github.com/DriveAI/challenges) as a pull request. To submit, we recommend that you fork the challenges repository. Add your project folder to the `submissions/waldo` folder. You must contribute your test-dataset to our dataset to run against everyone in the competition. Drop all the images that you used into the `dataset/` folder. Over the course of the project these will quickly grow into a fairly large data set for high quality testing. Monitor your pull request, in case we have any trouble with your submission, this is how we'll contact you.
 
 ## Judging/Grading
 
