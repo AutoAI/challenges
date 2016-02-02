@@ -1,17 +1,13 @@
-# Welcome to DriveAI
+# Welcome to DriveAI Challenges
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+## Who are we?
 
-## Commands
+We develop open source software for autonomous vehicles so anyone can build one. The sum of all our knowledge is located at our [docsite](http://docs.driveai.org). We're an open source project. So feel free to contribute to *anything!*
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## What are the challenges?
 
-## Project layout
+The *DriveAI Challenges* are a way for anyone to learn more about algorithms and challenges that are at the forefront of the Autonomous Vehicle industry. Every month we'll post challenges that will involve solving a problem, and we'll award prizes to whoever solves them  most effectively given a criteria.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Who can participate?
+
+*Anyone*. We'll provide guides and learning material for anyone to solve the challenge. Whether you're just a beginner or pursuing a PHD, this will be a fun way to challenge yourself, and help the autonomous vehicle community. Your submissions will play an integral role in the creation of our vehicles. Get started with [Waldo Challenge](http://challenges.driveai.org/waldo/).
