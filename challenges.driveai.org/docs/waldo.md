@@ -4,11 +4,11 @@
 
 ## Motivation
 
-Any effective self driving system is going to need to be able to rapidly respond to it's environment. Often, the only cues it will get for its response is the visual around it (if a car swerves in front of you, or a pedestrian runs out, its unacceptable to wait until physical contact before hitting the breaks). Naturally then, its clear that computer vision is going to be a fundamental aspect of any self driving car. To kick off the first of our Challenges we shall present a problem in computer vision. 
+Any effective self driving system is going to need to be able to rapidly respond to it's environment. Often, the only cues it will get for its response is the visual around it (if a car swerves in front of you, or a pedestrian runs out, it's unacceptable to wait until physical contact before hitting the brakes). Naturally then, it's clear that computer vision is going to be a fundamental aspect of any self driving car. To kick off the first of our Challenges we shall present a problem in computer vision. 
 
 ## Challenge Description
 
-Given a collection of images, some containing a stop sign, and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. Your submission will be compared to other submissions based on accuracy and speed of execution.
+Given a collection of images, some containing a stop sign and others not, design a computer program to effectively determine which images do contain a stop sign and which don't. Your submission will be compared to other submissions based on accuracy and speed of execution.
 
 ## Format
 
@@ -21,7 +21,7 @@ run.sh
 ...
 ```
 
-Your program needs to set itself up on a fresh install of Ubuntu 14.04. `install_dependencies.sh` should download any libraries and supporting files your program needs, and `compile.sh` will compile your program, if that's necessary. These will not be timed. The third must be set up so that it accepts a directory of png images.
+Your program needs to set itself up on a fresh install of Ubuntu 14.04. `install_dependencies.sh` should download any libraries and supporting files your program needs, and `compile.sh` will compile your program if that's necessary. These will not be timed. The third must be set up so that it accepts a directory of png images.
 
 ```sh
 run.sh path/to/directory/containing/images
