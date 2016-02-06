@@ -4,3 +4,4 @@ pages:
  - Challenge 1: waldo.md
 site_favicon: favicon.png
 theme: cyborg
+google_analytics: ['UA-73389958-1', 'challenges.driveai.org']
